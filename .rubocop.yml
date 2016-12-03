@@ -1,0 +1,29 @@
+require: rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.3
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/MethodLength:
+  Max: 30
+
+LiteralInInterpolation:
+  Exclude:
+    - 'spec/**/*'
+
+Style/SignalException:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Max: 5
+
+RSpec/SubjectStub:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Max: 20
+
+RSpec/NestedGroups:
+  MaxNesting: 3
