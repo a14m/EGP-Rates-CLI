@@ -1,11 +1,11 @@
 # frozen_string_literal: true
-require 'EGP_Rates'
+require 'egp_rates'
 require 'tty'
 require 'tty-prompt'
 require 'tty-command'
 require 'tty-table'
 require 'tty-spinner'
-require 'EGP_Rates_CLI/config'
+require 'egp_rates_cli/config'
 
 # CLI
 module EGPRatesCLI

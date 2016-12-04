@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require 'EGP_Rates_CLI'
+require 'egp_rates_cli'
 
 Signal.trap("SIGINT") do
   EGPRatesCLI.stop
