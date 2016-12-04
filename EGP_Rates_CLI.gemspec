@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'EGP_Rates_CLI'
-  spec.version       = '0.0.2'
+  spec.version       = '0.0.4'
   spec.authors       = ['Ahmed Abdel-Razzak']
   spec.email         = ['abdelrazzak.ahmed@gmail.com']
 
@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'pry-byebug'
 
-  spec.add_dependency 'EGP_Rates', '~>1.0'
+  spec.add_dependency 'EGP_Rates', '>= 1.0.5'
   spec.add_dependency 'tty', '~>0.5'
 end
