@@ -4,7 +4,6 @@ require 'tty'
 require 'tty-prompt'
 require 'tty-command'
 require 'tty-table'
-require 'tty-spinner'
 require 'egp_rates_cli/config'
 
 # CLI

@@ -24,5 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry-byebug'
 
   spec.add_dependency 'EGP_Rates', '>= 1.0.5'
-  spec.add_dependency 'tty', '~>0.5'
+  spec.add_dependency 'tty-prompt', '~>0.6'
+  spec.add_dependency 'tty-command', '~> 0.1'
+  spec.add_dependency 'tty-table', '~>0.5'
 end
