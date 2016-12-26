@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'EGP_Rates_CLI'
-  spec.version       = '0.0.4'
+  spec.version       = '0.0.5'
   spec.authors       = ['Ahmed Abdel-Razzak']
   spec.email         = ['abdelrazzak.ahmed@gmail.com']
 
