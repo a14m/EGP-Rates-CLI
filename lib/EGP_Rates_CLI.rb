@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 require 'egp_rates'
-require 'tty'
 require 'tty-prompt'
 require 'tty-command'
 require 'tty-table'
