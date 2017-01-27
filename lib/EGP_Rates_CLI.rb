@@ -3,7 +3,7 @@ require 'egp_rates'
 require 'tty-prompt'
 require 'tty-command'
 require 'tty-table'
-require 'egp_rates_cli/config'
+require 'EGP_Rates_CLI/config'
 
 # CLI
 module EGPRatesCLI
